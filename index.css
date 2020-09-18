@@ -1,0 +1,30 @@
+body {
+  background: #f6f6f6;
+  font-family: 'Staatliches', cursive;
+  background: url("img/mgugz.jpg") no-repeat center;
+  background-size: cover;
+  background-position: center top;
+}
+
+#countdownContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  font-size: 70px;
+  align-items: center;
+  align-content: center;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: gray;
+}
+#countdownContainer div {
+  margin: 0 auto;
+  width: 25%;
+  height: 10%;
+}
